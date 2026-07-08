@@ -1,3 +1,5 @@
+<img width="2816" height="1536" alt="logo" src="https://github.com/user-attachments/assets/40354b6f-9b14-4693-835b-e9209b8677d4" />
+
 <div align="center">
 
 # Bandwidth-Aware Universal Upload Manager (IUM)
