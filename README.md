@@ -64,6 +64,12 @@ The script depends on native operating system tools to perform the network heavy
 3. **youtube-upload CLI** (Required for YouTube uploads) -> Installed via Python package manager (`pip install youtube-upload`)
 
 ---
+Destination Service,Underlying Subprocess Engine,Bandwidth Throttling Support,Hard File Size Boundary Constraints
+Google Drive,rclone copy,YES (--bwlimit),Evaluated by your remaining cloud quota limits
+Telegram,curl -F,YES (--limit-rate),50 MB Maximum limit per file (Enforced strictly by the Telegram Bot API)
+YouTube,youtube-upload,NO (Warning Displayed),Subjected to standard Google verification account tiers
+
+---
 
 ## 🚀 Quick Start (Running from Source)
 
